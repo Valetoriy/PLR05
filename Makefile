@@ -20,4 +20,4 @@ $(O)compute.o: $(S)compute.c
 	$(CO) $(CA) $(S)compute.c -o $(O)compute.o
 
 clean:
-	rm obj/* && rm lr05
+	rm obj/*.o && rm lr05
