@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "functions.h"
 
 int main() {
@@ -9,7 +10,6 @@ int main() {
     void (*arr[])() = {f1, f2, f3, f4};
 
     do {
-
         puts("Viberite vvod ishodnih dannih:\n"
              "    1) V tele programmi\n"
              "    2) C ekrana\n"

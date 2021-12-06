@@ -1,9 +1,13 @@
-#include <stdio.h> // temp
+#include <stdio.h>
 #include "compute.h"
+#include "functions.h"
 
 // v tele programmi
 void f1() {
     puts("1");
+    int a[] = {1, 2};
+    compute12(a);
+    compute3(a,a,a);
 
 };
 
